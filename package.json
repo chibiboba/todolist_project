@@ -10,20 +10,17 @@
   "dependencies": {
     "express": "4",
     "http-errors": "1",
+    "lodash": "^4.17.15",
     "morgan": "1.9"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/chibiboba/todolist_project.git"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "foo": "echo 'How do you do?'",
+    "babel": "npx babel lib --out-dir dist --presets=@babel/preset-env"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/chibiboba/todolist_project/issues"
-  },
-  "homepage": "https://github.com/chibiboba/todolist_project#readme",
-  "devDependencies": {}
+  "devDependencies": {
+    "eslint": "^6.1.0"
+  }
 }
