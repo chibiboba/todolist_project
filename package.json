@@ -7,15 +7,8 @@
     "lib": "lib",
     "test": "test"
   },
-  "dependencies": {
-    "express": "4",
-    "http-errors": "1",
-    "lodash": "^4.17.15",
-    "morgan": "1.9"
-  },
+  "dependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "foo": "echo 'How do you do?'",
     "babel": "npx babel lib --out-dir dist --presets=@babel/preset-env"
   },
   "author": "",
